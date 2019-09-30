@@ -4,7 +4,7 @@ import React from 'react'
 function PageHeader() {
     return (
       <div className="PageHeader">  
-        <h1>Makhmud Islamov - Portfolio</h1>
+        <h1>Portfolio</h1>
       </div>  
     )
 }
