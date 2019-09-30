@@ -1,0 +1,15 @@
+.title {
+    color: brown;
+}
+
+.link:hover {
+    color: black;   
+}
+
+.link {
+    text-decoration: none;
+}
+
+.image {
+    border-radius: 25%;
+}

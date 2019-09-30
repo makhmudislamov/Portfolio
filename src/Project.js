@@ -1,4 +1,5 @@
 import React from 'react'
+import './Project.css'
 
 // USING PROPS
 // function Project(props) {
@@ -15,10 +16,10 @@ import React from 'react'
 // DECONSTRUCTING PROPS
 function Project({ image, title, link }) {
     return (
-        <div>
-            <img src={image} width="300" height="200" />
-            <h3>{title}</h3>
-            <a href={link}>Link to project</a>
+        <div className="Project">
+            <img className="image" src={image} width="300" height="200" />
+            <h3 className="title">{title}</h3>
+            <a className="link" href={link}>Link to project</a>
         </div>
     )
 }
