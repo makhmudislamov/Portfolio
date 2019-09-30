@@ -1,9 +1,15 @@
 import React from 'react'
+import Project from './Project'
 
 function PageContent() {
     return (
         <div>
-            <h2>Content here...</h2>
+            <Project />
+            <Project />
+            <Project />
+            <Project />
+            <Project />
+            <Project />
         </div>
     )
 }
